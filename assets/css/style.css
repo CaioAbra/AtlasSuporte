@@ -639,23 +639,23 @@ label.fileInput {
   font-size: 12px;
   font-family: "SpaceGrotesk-Light";
 }
+.accordion .card .card-header button:focus {
+  box-shadow: none !important;
+  text-decoration: none;
+  color: var(--laranja);
+}
 @media screen and (min-width: 1366px) {
   .accordion .card .card-header button {
     font-size: 14px;
   }
 }
 .accordion .card .card-body {
+  margin-top: 0.5rem;
   padding: 0;
   color: var(--cinza-medio);
   font-size: 12px;
   font-family: "SpaceGrotesk-Light";
 }
-@media screen and (min-width: 1366px) {
-  .accordion .card .card-body {
-    font-size: 14px;
-  }
-}
-
 .labelfileInput {
   color: var(--cinza) !important;
 }

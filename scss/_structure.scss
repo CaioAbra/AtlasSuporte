@@ -710,6 +710,12 @@ label.fileInput {
                 font-size: 12px;
                 font-family: 'SpaceGrotesk-Light';
 
+                &:focus{
+                    box-shadow: none !important;
+                    text-decoration: none;
+                    color: var(--laranja);
+                }
+
                 @media screen and (min-width:1366px) {
                     font-size: 14px;
                 }
@@ -717,13 +723,14 @@ label.fileInput {
         }
 
         .card-body {
+            margin-top: 0.5rem;
             padding: 0;
             color: var(--cinza-medio);
             font-size: 12px;
             font-family: 'SpaceGrotesk-Light';
 
             @media screen and (min-width:1366px) {
-                font-size: 14px;
+                // font-size: 14px;
             }
         }
     }
