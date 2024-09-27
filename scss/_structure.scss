@@ -599,6 +599,10 @@ span.card-link {
     text-align: center;
     line-height: normal;
     font-family: SpaceGrotesk-Bold !important;
+    width: 100%;
+    min-height: 46px;
+    place-content: center;
+
 
     &:hover {
         text-decoration: none;
@@ -703,8 +707,8 @@ label.fileInput {
             button {
                 padding: 0;
                 color: var(--cinza-medio);
-                font-size: 10px;
-                font-family: SpaceGrotesk-Light;
+                font-size: 12px;
+                font-family: 'SpaceGrotesk-Light';
 
                 @media screen and (min-width:1366px) {
                     font-size: 14px;

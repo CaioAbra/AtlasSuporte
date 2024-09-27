@@ -551,6 +551,9 @@ span.card-link {
   text-align: center;
   line-height: normal;
   font-family: SpaceGrotesk-Bold !important;
+  width: 100%;
+  min-height: 46px;
+  place-content: center;
 }
 .card-link-btn:hover {
   text-decoration: none;
@@ -633,8 +636,8 @@ label.fileInput {
 .accordion .card .card-header button {
   padding: 0;
   color: var(--cinza-medio);
-  font-size: 10px;
-  font-family: SpaceGrotesk-Light;
+  font-size: 12px;
+  font-family: "SpaceGrotesk-Light";
 }
 @media screen and (min-width: 1366px) {
   .accordion .card .card-header button {
