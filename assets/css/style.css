@@ -646,6 +646,14 @@ label.fileInput {
 }
 .accordion .card .card-body {
   padding: 0;
+  color: var(--cinza-medio);
+  font-size: 12px;
+  font-family: "SpaceGrotesk-Light";
+}
+@media screen and (min-width: 1366px) {
+  .accordion .card .card-body {
+    font-size: 14px;
+  }
 }
 
 .labelfileInput {

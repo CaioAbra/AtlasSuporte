@@ -718,6 +718,13 @@ label.fileInput {
 
         .card-body {
             padding: 0;
+            color: var(--cinza-medio);
+            font-size: 12px;
+            font-family: 'SpaceGrotesk-Light';
+
+            @media screen and (min-width:1366px) {
+                font-size: 14px;
+            }
         }
     }
 }
